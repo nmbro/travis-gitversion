@@ -5,8 +5,8 @@ language: minimal
 services:
   - docker
 
-git:
-  depth: false
+install:
+  - git fetch --unshallow
 
 branches:
   only:
