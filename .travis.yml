@@ -5,9 +5,6 @@ language: minimal
 services:
   - docker
 
-install:
-  - git fetch --unshallow
-
 branches:
   only:
     - master
